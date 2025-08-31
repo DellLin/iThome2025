@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>157260c7-f9f2-4e4a-91c8-5c07e30ea2b8</UserSecretsId>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.8" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="9.0.8" />
+    <PackageReference Include="Microsoft.SemanticKernel.Connectors.OpenAI" Version="1.64.0" />
+    <PackageReference Include="Microsoft.SemanticKernel.Core" Version="1.64.0" />
+    <PackageReference Include="Microsoft.SemanticKernel.Yaml" Version="1.64.0" />
+  </ItemGroup>
+</Project>
+

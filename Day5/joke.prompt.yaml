@@ -1,0 +1,9 @@
+template: "Tell a joke about {{$input}}."
+description: "Generates a joke based on the input."
+input_variables:
+  - name: "input"
+    description: "The topic for the joke."
+    is_required: true
+execution_settings:
+  default:
+    temperature: 1
